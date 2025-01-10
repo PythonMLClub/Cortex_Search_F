@@ -1,16 +1,15 @@
 # Transforming Enterprise Search with AI Using Snowflake Cortex Search
 
-As organizations increasingly adopt generative AI technologies, streamlining and securing AI workflows becomes essential. Snowflake Cortex Search offers a powerful, AI-driven solution for exploring vast amounts of structured and unstructured data directly within the Snowflake environment. To demonstrate how Cortex Search can transform search capabilities with AI, I used a simple library books search system with unstructured data as an example, while highlighting its broader advantages for enterprises seeking to harness AI with strong data governance.
-At its core, Cortex Search utilizes vector search, powered by Snowflake's high-performance and cost-effective Arctic Embed M model. 
-<br><br>This vector search is enhanced with a hybrid approach that combines lexical search and semantic reranking to optimize retrieval and ranking of results. 
-This ensemble method leverages:
+Simplifying and safeguarding AI processes is crucial as more businesses use generative AI technologies. A strong, AI-powered tool for examining enormous volumes of both structured and unstructured data inside the Snowflake environment is Snowflake Cortex Search. I utilized a straightforward library book search system with unstructured data as an example to show how Cortex Search can revolutionize search capabilities with AI, while also emphasizing its wider benefits for businesses looking to use AI with robust data governance. Fundamentally, Cortex Search makes use of vector search, which is facilitated by Snowflake's Arctic Embed M model, which is both highly effective and reasonably priced.
+<br><br>A hybrid strategy that optimizes result retrieval and ranking by combining lexical search and semantic reranking is added to this vector search.
+This group approach makes use of:
 <br>
-### Vector search for semantic similarity
-Unlike conventional methods that rely on the exact match of keywords within documents, vector search understands the semantic meaning of queries, retrieving results based on the concepts behind the words.
-### Keyword search for lexical matching
-Keyword search focuses on exact word matches, ensuring that specific terms from the query appear in the results. This method is particularly useful for retrieving documents with precise language or terminology.
-### Semantic reranking to surface the most relevant results
-Once the initial results are retrieved, semantic reranking reorders them based on their relevance to the query's intent. This ensures that the most contextually appropriate results appear at the top of the list.
+### Semantic similarity using vector search
+Vector search comprehends the semantic meaning of searches and retrieves results based on the concepts behind the words, in contrast to traditional methods that depend on the precise match of keywords inside documents.
+### Lexical matching through keyword search
+In order to guarantee that particular terms from the query show up in the results, keyword search concentrates on exact word matches. When locating papers with specific language or terminology, this method is quite helpful.
+### To display the most pertinent results, use semantic reranking.
+Semantic reranking rearranges the first results according to how relevant they are to the purpose of the query. This guarantees that the results at the top of the list are the most relevant to the context.
 <br>
 By using this multi-pronged strategy, Cortex Search can handle a wide variety of queries effectively without extensive tuning.
 
